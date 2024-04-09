@@ -23,7 +23,7 @@ import {addClass, removeClass} from './classes';
 import {camera} from './camera';
 import {share} from './share';
 import {isMobile, isIOS, isChromeIOS, getQueryParam, isLangJa} from './utils';
-import {CLASS_LABELS_JA} from './scavenger_classes';
+//import {CLASS_LABELS_JA} from './scavenger_classes';
 
 export const VIEWS = {
   LOADING: 'loading',
@@ -427,10 +427,9 @@ export class Ui {
    *
    * @returns The sleuth found message speak string.
    */
+  
   get sleuthSpeakingFoundItMsgEmojiName(): string {
-    return isLangJa() ?
-           `${CLASS_LABELS_JA[game.currentEmoji.name]} を見つけました！` :
-           `Hey you found ${game.currentEmoji.name}\u00A0!`;
+    return `Hey you found ${game.currentEmoji.name}\u00A0!`;
   }
 
   /**
@@ -438,6 +437,7 @@ export class Ui {
    *
    * @returns You found X items message string.
    */
+  
   get sleuthSpeakingFoundXMsg(): string {
     return isLangJa() ?
            `やりました！${game.score.toString()} 個のアイテムを見つけました。` :
@@ -451,6 +451,7 @@ export class Ui {
    *
    * @returns Your time is up message string.
    */
+  
   get sleuthSpeakingFoundNoMsg(): string {
     return isLangJa() ? '残念！時間切れです。' : 'Oh no! Your time is up.';
   }
@@ -460,6 +461,7 @@ export class Ui {
    *
    * @returns You did it message string.
    */
+  
   get sleuthSpeakingFoundAllMsg(): string {
     return isLangJa() ? 'やりましたね！' : 'You did it!';
   }
@@ -470,12 +472,11 @@ export class Ui {
    * @returns A message constructed with our sleuthSpeakingPrefixes plus some
    * item seen in the real world.
    */
+  
   get sleuthSpeakingSeeingMsg(): string {
     let randomIndex = Math.floor(this.sleuthSpeakingPrefixes.length *
         Math.random());
-    return isLangJa() ? (
-           CLASS_LABELS_JA[game.topItemGuess.toString()] +
-           this.sleuthSpeakingPrefixes[randomIndex]) : (
+    return (
            this.sleuthSpeakingPrefixes[randomIndex] +
            game.topItemGuess.toString() + ' ?');
   }

@@ -22,6 +22,119 @@ export interface EmojiItem {
 
 export const EMOJIS_LVL_1: Array<EmojiItem> = [
   {
+    'name': 'ipad',
+    'emoji': '🧑‍💻',
+    'path': '/img/emojis/game/ipad.svg'
+  },
+  {
+    'name': 'foraminifera',
+    'emoji': '🪸',
+    'path': '/img/emojis/game/coral.svg'
+  },
+  {
+    'name': 'smoke detector',
+    'emoji': '🚨',
+    'path': '/img/emojis/game/smoke-detector.svg'
+  },
+  {
+    'name': 'football boot',
+    'emoji': '👟',
+    'path': '/img/emojis/game/soccer-shoe.svg'
+  },
+  {
+    'name': 'scallop',
+    'emoji': '🦪',
+    'path': '/img/emojis/game/scallop.svg'
+  },
+  {
+    'name': 'coat rack',
+    'emoji': '🪝',
+    'path': '/img/emojis/game/coatrack.svg'
+  },
+  {
+    'name': 'coca cola bottle',
+    'emoji': '🍾',
+    'path': '/img/emojis/game/cola.svg'
+  },
+  {
+    'name': 'toy watering can',
+    'emoji': '🚿',
+    'path': '/img/emojis/game/watering-can.svg'
+  },    
+  {
+    'name': 'ruler',
+    'emoji': '📏',
+    'path': '/img/emojis/game/straight-ruler.svg'
+  },
+  {
+    'name': 'sun glasses',
+    'emoji': '😎',
+    'path': '/img/emojis/game/sunglasses.svg'
+  },
+  {
+    'name': 'computer mouse',
+    'emoji': '🖱️',
+    'path': '/img/emojis/game/mouse.svg'
+  },
+  {
+    'name': 'headset',
+    'emoji': '🎧',
+    'path': '/img/emojis/game/headphones.svg'
+  },
+  {
+    'name': 'spoon',
+    'emoji': '🥄',
+    'path': '/img/emojis/game/spoon.svg'
+  }, 
+  {
+    'name': 'teddy bear',
+    'emoji': '🧸',
+    'path': '/img/emojis/game/teddy-bear.svg'
+  },
+  {
+    'name': 'toy dinosaur',
+    'emoji': '🦖',
+    'path': '/img/emojis/game/t-rex.svg'
+  },
+  {
+    'name': 'norwegian flag',
+    'emoji': '🇳🇴',
+    'path': '/img/emojis/game/norway.svg'
+  },
+  {
+    'name': 'toy sword',
+    'emoji': '⚔️',
+    'path': '/img/emojis/game/sword.svg'
+  },
+  {
+    'name': 'sponge',
+    'emoji': '🧽',
+    'path': '/img/emojis/game/sponge.svg'
+  },
+  {
+    'name': 'stapler',
+    'emoji': '🗒️',
+    'path': '/img/emojis/game/stapler.svg'
+  },
+  {
+    'name': 'toy motor saw',
+    'emoji': '🪚',
+    'path': '/img/emojis/game/tools-chainsaw.svg'
+  },
+  {
+    'name': '2nd ww bomb',
+    'emoji': '💣',
+    'path': '/img/emojis/game/bomb.svg'
+  },
+  {
+    'name': 'duct tape',
+    'emoji': '🧻',
+    'path': '/img/emojis/game/adhesive-tape.svg'
+  },
+];                                                         
+/*
+export const EMOJIS_LVL_1: Array<EmojiItem> = [
+  {
     'name': 'hand',
     'emoji': '✋',
     'path': '/img/emojis/game/hand.svg'
@@ -534,3 +647,4 @@ export const EMOJIS_LVL_DEMO: Array<EmojiItem> = [
     'path': '/img/emojis/game/jack o lantern.svg'
   }
 ];
+*/

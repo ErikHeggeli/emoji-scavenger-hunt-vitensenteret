@@ -27,9 +27,11 @@ import {shuffle} from 'lodash';
 import * as tfc from '@tensorflow/tfjs-core';
 import {SPEECH_SPRITE_TIMESTAMPS,
      SPEECH_SPRITE_TIMESTAMPS_JA} from './speech_sprite_timestamps';
+import {EmojiItem, EMOJIS_LVL_1} from './game_levels';
+/*
 import {EmojiItem, EMOJIS_LVL_1, EMOJIS_LVL_2, EMOJIS_LVL_3, EMOJIS_LVL_4,
      EMOJIS_LVL_5, EMOJIS_LVL_DEMO} from './game_levels';
-
+*/
 export const GAME_START_TIME = 20;
 export const GAME_EXTEND_TIME = 10;
 export const GAME_MAX_ITEMS = 10;
@@ -147,11 +149,11 @@ export class Game {
     };
 
     this.emojiLvl1 = shuffle(EMOJIS_LVL_1);
-    this.emojiLvl2 = shuffle(EMOJIS_LVL_2);
-    this.emojiLvl3 = shuffle(EMOJIS_LVL_3);
-    this.emojiLvl4 = shuffle(EMOJIS_LVL_4);
-    this.emojiLvl5 = shuffle(EMOJIS_LVL_5);
-    this.emojiLvlDemo = Array.from(EMOJIS_LVL_DEMO);
+    this.emojiLvl2 = shuffle(EMOJIS_LVL_1);
+    this.emojiLvl3 = shuffle(EMOJIS_LVL_1);
+    this.emojiLvl4 = shuffle(EMOJIS_LVL_1);
+    this.emojiLvl5 = shuffle(EMOJIS_LVL_1);
+    this.emojiLvlDemo = Array.from(EMOJIS_LVL_1);
 
     this.emojiLvlLookup = {
       '1': this.emojiLvl1,
@@ -682,21 +684,21 @@ export class Game {
         this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_1);
         break;
       case '2':
-        this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_2);
+        this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_1);
         break;
       case '3':
-        this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_3);
+        this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_1);
         break;
       case '4':
-        this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_4);
+        this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_1);
         break;
       case '5':
-        this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_5);
+        this.emojiLvlLookup[level] = shuffle(EMOJIS_LVL_1);
         break;
       case '#':
         // NOTE: the Demo list is not shuffled since we always request them in
         // same order for demo purposes.
-        this.emojiLvlLookup[level] = Array.from(EMOJIS_LVL_DEMO);
+        this.emojiLvlLookup[level] = Array.from(EMOJIS_LVL_1);
         break;
       default:
         throw new Error('Error: expected ' + level + ' level string in the ' +
