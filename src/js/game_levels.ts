@@ -52,12 +52,12 @@ export const EMOJIS_LVL_1: Array<EmojiItem> = [
     'path': '/img/emojis/game/coatrack.svg'
   },
   {
-    'name': 'coca cola bottle',
+    'name': 'bottle',
     'emoji': '🍾',
     'path': '/img/emojis/game/cola.svg'
   },
   {
-    'name': 'toy watering can',
+    'name': 'watering can',
     'emoji': '🚿',
     'path': '/img/emojis/game/watering-can.svg'
   },    
@@ -67,7 +67,7 @@ export const EMOJIS_LVL_1: Array<EmojiItem> = [
     'path': '/img/emojis/game/straight-ruler.svg'
   },
   {
-    'name': 'sun glasses',
+    'name': 'sunglasses',
     'emoji': '😎',
     'path': '/img/emojis/game/sunglasses.svg'
   },
@@ -87,22 +87,22 @@ export const EMOJIS_LVL_1: Array<EmojiItem> = [
     'path': '/img/emojis/game/spoon.svg'
   }, 
   {
-    'name': 'teddy bear',
+    'name': 'teddybear',
     'emoji': '🧸',
     'path': '/img/emojis/game/teddy-bear.svg'
   },
   {
-    'name': 'toy dinosaur',
+    'name': 'dinosaur',
     'emoji': '🦖',
     'path': '/img/emojis/game/t-rex.svg'
   },
   {
-    'name': 'norwegian flag',
+    'name': 'flag',
     'emoji': '🇳🇴',
     'path': '/img/emojis/game/norway.svg'
   },
   {
-    'name': 'toy sword',
+    'name': 'sword',
     'emoji': '⚔️',
     'path': '/img/emojis/game/sword.svg'
   },
@@ -117,17 +117,17 @@ export const EMOJIS_LVL_1: Array<EmojiItem> = [
     'path': '/img/emojis/game/stapler.svg'
   },
   {
-    'name': 'toy motor saw',
+    'name': 'chainsaw',
     'emoji': '🪚',
     'path': '/img/emojis/game/tools-chainsaw.svg'
   },
   {
-    'name': '2nd ww bomb',
+    'name': 'bomb',
     'emoji': '💣',
     'path': '/img/emojis/game/bomb.svg'
   },
   {
-    'name': 'duct tape',
+    'name': 'tape',
     'emoji': '🧻',
     'path': '/img/emojis/game/adhesive-tape.svg'
   },
